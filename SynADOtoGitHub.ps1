@@ -19,9 +19,9 @@ param(
 Write-Host ' - - - - - - - - - - - - - - - - - - - - - - - - -'
 Write-Host ' reflect Azure Devops repo changes to GitHub repo'
 Write-Host ' - - - - - - - - - - - - - - - - - - - - - - - - - '
-# $AzureRepoName = "Azure-MasterIaCTemplates"
-# $ADOCloneURL = "dev.azure.com/LefeWare-Solutions/LefeWareSolutions/_git/Azure-MasterIaCTemplates"
-# $GitHubCloneURL = "github.com/LefeWare-Solutions/Azure-MasterIaCTemplates.git"
+ $AzureRepoName = "Azure-MasterIaCTemplates"
+ $ADOCloneURL = "dev.azure.com/LefeWare-Solutions/LefeWareSolutions/_git/Azure-MasterIaCTemplates"
+ $GitHubCloneURL = "github.com/LefeWare-Solutions/Azure-MasterIaCTemplates.git"
 $stageDir = pwd | Split-Path
 Write-Host "stage Dir is : $stageDir"
 $githubDir = $stageDir +"\"+"gitHub"
