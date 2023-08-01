@@ -1,7 +1,7 @@
 {
     "RepoList" : [
     {
-        "AzureRepoName":"CloudQuickLabsADO",
+        "AzureRepoName":"Azure-MasterIaCTemplates",
         "ADOCloneURL":"dev.azure.com/LefeWare-Solutions/LefeWareSolutions/_git/Azure-MasterIaCTemplates",
          "GitHubCloneURL":"github.com/LefeWare-Solutions/Azure-MasterIaCTemplates.git"
     }
